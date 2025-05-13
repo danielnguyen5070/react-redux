@@ -1,13 +1,13 @@
 import './App.css'
 import { Counter } from './features/counter/Counter'
+import { Post } from './features/post/Post'
 
 function App() {
-
   return (
     <>
       <div>
         <Counter />
-        <h1>Welcome to the Redux Toolkit</h1>
+        <Post />
       </div>
     </>
   )
