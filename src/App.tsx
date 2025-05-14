@@ -1,6 +1,7 @@
 import './App.css'
 import { Counter } from './features/counter/Counter'
 import { Post } from './features/post/Post'
+import { User } from './features/user/User'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Counter />
         <Post />
+        <User />
       </div>
     </>
   )
